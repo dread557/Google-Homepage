@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px 45px 0  0;
+}
+
+header a {
+    text-decoration: none;
+    color: #222;
+    margin-right: 10px;
+}
+
+header button {
+    padding: 9px 23px;
+    min-width: 96px;
+    font-weight: 500;
+    background-color: #1a73e8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 180px;
+}
+
+.logo {
+    padding-bottom: 20px;
+}
+
+.apps {
+    width: 20px;
+    height: 20px;
+}
+
+.app:hover {
+    background: #2b7de9;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(66,133,244,0.3),0 1px 3px 1px rgba(66,133,244,0.15);
+}
+
+.txt-input {
+    width: 600px;
+    position: relative;
+}
+
+input:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0)
+}
+
+input {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 14px;
+    outline: 0;
+    margin-bottom: 25px;
+    /* background-image: url("search.png"), url("voice.png");
+    background-repeat: no-repeat; */
+}
+
+.search, .voice {
+    border: 0;
+    background: white;
+    position: absolute;
+}
+
+.search {
+    right: 92%;
+    top: 9px;
+}
+
+.voice {
+    right: 2%;
+    top: 3px;
+}
+
+.voice img {
+    width: 35px;
+    height: 35px;
+} 
+
+.search img {
+    width: 24px;
+    height: 24px;
+}
+
+.sample button {
+    border: 1px solid transparent;
+    padding: 8px;
+    color: #505050;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
+
+.language-options p a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.language-options p a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #f0eeee8a;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.nav-1, .nav-2 {
+    display: flex;
+}
+
+.location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    margin: 0;
+}
+
+.copyright {
+    background-image: url("img/carbon.png");
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-size: 16px;
+    color: #70757a;
+}
+
+.nav-1 a, .nav-2 a {
+    color: #70757a;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
